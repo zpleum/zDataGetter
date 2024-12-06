@@ -1,0 +1,20 @@
+name: zDataGetter
+version: '1.0'
+main: me.zpleum.zDataGetter.ZDataGetter
+api-version: '1.20'
+prefix: zDGR
+authors: [ zPleum ]
+description: For MC ZERO Only!!
+website: https://pleum.mc-zero.net/
+
+commands:
+  zdatagetter:
+    description: Basic Commands Of zDataGetter
+    usage: /zdatagetter <reload|sendnow>
+    permission: zdatagetter.use
+    permission-message: คุณไม่มีสิทธิ์ในการใช้คำสั่งนี้!
+
+permissions:
+  zdatagetter.use:
+    description: "Allows user to use reload or sendnow."
+    default: op
